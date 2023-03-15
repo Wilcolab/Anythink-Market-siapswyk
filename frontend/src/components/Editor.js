@@ -117,8 +117,7 @@ class Editor extends React.Component {
                     ></textarea>
                   </fieldset>
                   <CloudinaryUploadWidget onUpload={this.changeImage}/>
-      <img id="uploadedimage" 
-        className="item-img" src={this.props.image}></img>
+                  <img id="uploadedimage" className="item-img" src={this.props.image}></img>
 
                   <fieldset className="form-group">
                     <input
